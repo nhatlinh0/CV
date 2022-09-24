@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.container{
+    width: 100%;
+    height: 2800px;
+    background-color: rgb(245, 247, 250);
+
+}
+.header{
+    height: 100px;
+    width: 100%;
+    padding-top: 15px;
+}
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color: rgb(67, 74, 84);
+   display: inline-block;
+   margin-left: 150px;
+}
+.fb{
+    height: 33px;
+    width: 250px;
+    margin-top: 10px;
+    float: right;   
+}
+.fb a img{
+    width:30px;
+    height: 30px;  
+   
+}
+.bia{
+    margin: 0 auto;
+    width:80% ;
+    height: 250px;
+    background-color: aquamarine; 
+    border-radius: 10px;
+}
+
+.ndbia{
+    width: 300px;
+    height: 200px;   
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top ;
+   
+}
+.bia img{
+    width: 150px;
+    height: 200px;
+    border: 5px solid #333;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.addfr{
+    height: 40 px;
+    width: 75px;
+    vertical-align: top;
+    margin-top: 50px;
+    float: right; 
+    margin-right: 50px ;
+}
+.addfr button{
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+}
+ .content{
+    margin: 0 auto;
+    width: 80%;
+    height: 2300px;
+    background-color: #fff;
+    border-radius: 10px;
+ }
+ .info .info1{
+    width: 350px;
+    height: 200px;
+    margin-left: 40px;
+    float: left;
+    padding-top: 10px;
+ }
+ .info .info1 h4{
+    font-weight: lighter;
+ }
+ .info .info2 .i1{
+    width: 100px;
+    height: 200px;
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px ;
+ }
+ .info .info2 .i2{
+    width: 350px;
+    height: 200px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+ }
+ .info .info2 .i2 h4{
+    font-weight: lighter;
+    line-height: 40px;
+ }
+ .info .info2 .i1 h4{
+    line-height: 40px;
+    font-weight: lighter;
+ }
+ .info .info2{
+    width: 520px;
+    height: 210px; 
+    float:left;
+    margin-left: 60px;
+ }
+ hr{   
+    height: 1px;
+    opacity: 0.5;
+ }
+ .skills .left{
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 40px;
+ }
+ .skills h4{
+    font-weight: lighter;
+ }
+ .skills .left .bar{
+    height: 30px;
+    width: 450px;
+    background-color: rgb(233, 236, 239);
+ }
+ .skills .left .bar .status1{
+    margin-right: 0px;
+    height: 30px;
+    width: 400px;
+    background-color: aquamarine;
+ }
+ .skills .left .bar .status2{
+    margin-right: 0px;
+    height: 30px;
+    width: 280px;
+    background-color: aquamarine;
+ }
+ .skills .left .bar .status3{
+    margin-right: 0px;
+    height: 30px;
+    width: 200px;
+    background-color: aquamarine;
+ }
+.skills .right {
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.skills .right .bar{
+    width: 450px;
+    height: 30px;
+    background-color: rgb(233, 236, 239);
+}
+.skills .right .status4{
+    height: 30px;
+    width: 380px;
+    background-color: aquamarine;
+}
+.skills .right .status5{
+    height: 30px;
+    width: 420px;
+    background-color: aquamarine;
+}
+.skills .right .status6{
+    height: 30px;
+    width: 210px;
+    background-color: aquamarine;
+}
+.skills h2{
+    margin-left: 40px;   
+}
+.skills h4{
+    padding: 10px 0px;
+}
+#title{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.work p{
+    padding-bottom: 20px;
+}
+.work h4{
+    font-weight: lighter;
+    
+}
+.work .box1{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.work .box2{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.work .box3{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#title2{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.edu p{
+    padding-bottom: 20px;
+}
+.edu h4{
+    font-weight: lighter;
+    
+}
+.edu .box4{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.edu .box5{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.edu .box6{
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid #333;
+    border-left: 10px solid aquamarine;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.con .left{
+    height: 200px;
+    width: 600px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.con h2{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.con .left .box1{
+    border-radius: 10px ; 
+    height: 30px;
+    width: 250px;
+    outline-width: 3px;
+    outline-color: aquamarine;
+    outline-style:inset ; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.con .left .box2{
+    border-radius: 10px ;
+    height: 30px;
+    width: 250px;
+    outline-width: 3px;
+    outline-color: aquamarine;
+    outline-style:inset ;
+}
+.con .left .box3{
+    border-radius: 10px ;
+    height: 100px;
+    width: 529px;
+    outline-width: 3px;
+    outline-color: aquamarine;
+    outline-style:inset ;
+    padding-bottom: 70px;   
+    box-sizing: border-box;
+}
+.con .left button{
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.con .right{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.con .right h5{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 12px 0px;
+}
+.con{
+    margin-bottom: 20px;
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(245, 247, 250);
+    
+} 
+footer a img{
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+footer h2{
+    text-align: center;
+}
+footer h4{
+    text-align: center;
+    font-weight: lighter;
+}
+.header .icon{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    margin-left: 10px;
+}
+
