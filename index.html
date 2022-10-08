@@ -1,53 +1,142 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Nguyen Nhat Linh</title>
     <style>
-        .container{
-            background-image: url(https://cf.shopee.vn/file/vn-11134103-22070-c73t617y2afvbc);
+        .container {
+            background-image: url(https://phongkhammayo.vn/hinh-anh-dep-nhat-hien-nay/imager_32414.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
-            height: auto;
+            height: 1000px;
         }
-        li{
+
+        li {
             list-style: none;
             text-align: center;
             margin-bottom: 25px;
         }
-        li a{
+
+        li a {
             font-size: 40px;
-            color: #333;
-            background-color: darkgrey;
+            color: #fff;
+            background-color: #ED4C67;
             text-decoration: none;
             padding: 0 20px;
         }
-        ul{
+
+        ul {
             display: block;
             margin: 0 auto;
+
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #1B1464;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+        
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        #main span {
+            text-align: center;
+            display: block;
+            font-weight: bold;
+            color: #fff;
+            border: 3px solid #fff ;
+        }
+        #main h1{
+            font-weight: bold;
+            font-size: 50px;
+            color: #fff;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <ul>
-            <li><a href="#home">HOMEWORK</a></li>
-            <li><a href="/BT1">Lab01</a></li>
-            <li><a href="/BT2">Lab02</a></li>
-            <li><a href="/BT3">Lab03</a></li>
-            <li><a href="/BT4">Lab04</a></li>
-            <li><a href="/BT5">Lab05</a></li>
-            <li><a href="/BT6">Lab06</a></li>
-            <li><a href="/BT7">Lab07</a></li>
-            <li><a href="/BT8">Lab08</a></li>
-            <li><a href="/BT9">Lab09</a></li>
-            <li><a href="/BT10">Lab10</a></li>
-            <li><a href="/BT11">Lab11</a></li>
-            <li><a href="/BT12">Lab12</a></li>
-        </ul>
-    </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="#home">HOMEWORK</a></li>
+                <li><a href="/BT1">Lab01</a></li>
+                <li><a href="/BT2">Lab02</a></li>
+                <li><a href="/BT3">Lab03</a></li>
+                <li><a href="/BT4">Lab04</a></li>
+                <li><a href="/BT5">Lab05</a></li>
+                <li><a href="/BT6">Lab06</a></li>
+                <li><a href="/BT7">Lab07</a></li>
+                <li><a href="/BT8">Lab08</a></li>
+                <li><a href="/BT9">Lab09</a></li>
+                <li><a href="/BT10">Lab10</a></li>
+                <li><a href="/BT11">Lab11</a></li>
+                <li><a href="/BT12">Lab12</a></li>
+            </ul>
+        </div>
 
+        <div id="main">
+            <h1 style="text-align:center" >Nguyễn Nhật Linh</h1>
+            <br> <br> <br> <br> <br>
+            <span style="font-size:100px;cursor:pointer" onclick="openNav()"> CLICK HERE</span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+                document.getElementById("main").style.marginLeft = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+    </div>
+    
 
 </body>
 
