@@ -340,5 +340,6 @@ footer .area2 .info2 ul{
     float: right;
 }
 .img-fluid{
-    margin-left: 200px;
+    margin: 0 auto;
+    width: 100%;
 }
