@@ -81,8 +81,7 @@
     height: 28px;
     margin-left: 20px; 
 }
-.body{
-    height: 1550px;
+.body{   
     margin: 0 auto;
     width: 1000px;
 }
@@ -280,7 +279,7 @@
     vertical-align: top;
     text-decoration: none;
     margin: 10px 0px;
-    display: inline;
+
 
 }
 .body .slidebar .day{
@@ -290,10 +289,11 @@
 footer{
     height: 80px;
     background-color: #eee;
-    margin-bottom: 20px;
+    display: block;
+    margin-top: 60px;
 }
 footer .area2{
-    width: 1000px;
+    width: 75%;
     height: 80px;
     margin: 0 auto;
    
@@ -301,13 +301,10 @@ footer .area2{
 footer .area2 a img{
     height: 80px;
     width: 120px;
-    float: left; 
-
+   
 }
 footer .area2 .info1{
-    float: left; 
-    width: 400px;
-    height: 50px;
+    
     margin-top: 20px;
 
 }
@@ -315,31 +312,48 @@ footer .area2 .info1 p{
     padding-left: 10px;
 }
 footer .area2 .info2{
-    float: right;
-    width: 450px;
-    height: 60px;
+    
     margin-top: 20px;
 }
 footer .area2 .info2 div{
-    float: right;
-    width: 400px;
+    
 }
 footer .area2 .info2 a{
     display: block;
-    float: right;
+ 
     text-decoration: none;
     color: #333;
 }
 footer .area2 .info2 li{
-    float: left;
+    
     text-decoration: none;
     list-style: none;
     font-size: 13px;
 }
 footer .area2 .info2 ul{
-    float: right;
+    
 }
 .img-fluid{
     margin: 0 auto;
     width: 100%;
+}
+.footer__content{
+    display: flex;
+    width: 50%;
+}
+.area2{
+    display: flex;
+    justify-content: space-between;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+.info2__list{
+    display: flex;
+}
+.info2__item{
+
 }
